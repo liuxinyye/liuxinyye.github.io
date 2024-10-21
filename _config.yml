@@ -1,42 +1,79 @@
-name: 肖航课题组  Xiao Research Group
-url: https://xiaohang007.github.io/
+# 网站基础配置
+name: 刘昕玥的个人网站  # Liu Xin Yue's Personal Website
+url: https://liuxinyue.github.io/
+title: "刘昕玥的个人网站"
+description: "专注于数字媒体与商业管理的研究，分享学习Python的心得与成果。"
+keywords: "刘昕玥, 数字媒体, 商业管理, Python学习"
 
-exclude: [bibble, README.md, Makefile, screenshot.png]
+# 排除文件
+exclude: 
+  - bibble
+  - README.md
+  - Makefile
+  - screenshot.png
 
-# colorize code snippets with the pygments module
+# 高亮代码片段使用的模块
 highlighter: pygments
 
-# The path structure for blog posts.
+# 博客文章的路径结构
 permalink: /blog/:year/:month/:day/:title.html
 encoding: utf-8
-# Sections on the "people" page.
-roles:
-  - key: faculty
-    name: 教师 Faculty
-  - key: grad
-    name: 研究生 Graduate Students
-  - key: ugrad
-    name: 本科生 Undergraduate Students
-  - key: collab
-    name: 合作者 Collaborators
 
+# 导航栏链接
+navigation:
+  - title: 首页 Home
+    link: /
+  - title: 研究 Research
+    link: /research.html
+  - title: 文章 Articles
+    link: /articles.html
+  - title: 关于 About
+    link: /about.html
+  - title: 联系 Contact
+    link: /contact.html
 
-# Number of news stories on the front page.
-front_page_news: 8
-
-# Base pathname for links.
-base: ''
-
-# make pages for the _projects folder
+# 为_projects文件夹中的内容创建页面
 collections:
   projects:
     output: true
 
-# Navigation bar links.
-navigation:
-  - title: 主页 Home
-    link: /
-  - title: 科研项目 Research
-    link: /research.html
-  - title: 论文 Publications
-    link: /publications.html
+# 主题支持
+theme: jekyll-theme-minimal
+
+# 用于联系的邮箱
+email: liuxinyue@example.com
+
+# 社交媒体链接
+social_links:
+  - name: GitHub
+    url: https://github.com/liuxinyue
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/liuxinyue/
+
+# Markdown 解析器
+markdown: kramdown
+
+# Markdown 配置
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# 版权声明
+copyright: "版权所有 © 2024 刘昕玥"
+
+# RSS Feed 配置
+rss:
+  description: "刘昕玥的最新博客文章"
+  limit: 10
+
+# 开发环境是否开启相对路径
+relative_url: false
+
+# 编译环境是否压缩HTML输出
+compress_html: true
+
+# Google Analytics ID（如果有的话）
+google_analytics: 
+
+# 是否启用搜索功能
+search: true
