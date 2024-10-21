@@ -1,72 +1,96 @@
----
-layout: default
-title: Home
-notitle: true
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Liu Xin Yue's Personal Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+        }
+        header {
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span role="img" aria-label="Wave">👋</span> Hi, I'm Liu Xin Yue</h1>
+        <p>A passionate researcher in the field of Digital Media and Business Management.</p>
+    </header>
 
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty, postdoc, staff]
-    width: 4
-    image: true
-  - roles: [grad]
-    width: 8
-    image: true
-- - roles: [collab, ugrad, ugrad-alum]
-    width: 5
-    image: false
-  - roles: [alum]
-    width: 7
-    image: false
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>🎓 As a dedicated student pursuing a Master's degree in Business Management, I am deeply fascinated by the intersection of digital media and commerce. My current research focuses on leveraging digital media tools and technologies to optimize business strategies. I believe that by integrating technological advancements into practical business applications, we can drive significant positive change.</p>
+        <p>🚀 When I'm not buried in books or coding, you'll find me exploring the great outdoors or diving into a good book. Hiking and photography are two of my favorite hobbies that allow me to recharge and find inspiration.</p>
+        <p>🌱 I'm always eager to learn new things and expand my skillset. Currently, I'm exploring Python extensively to enhance my capabilities in data analysis and automation. I find it incredibly rewarding to apply what I learn in real-world scenarios.</p>
+        <p>📫 If you're interested in connecting, whether it's for collaboration, discussion, or just to chat, don't hesitate to get in touch!</p>
+    </section>
 
----
+    <section id="learning-python-journey">
+        <h2>Learning Python Journey</h2>
+        <p>Building this website has been a fantastic opportunity for me to dive into Python programming. I've discovered that Python is not only a powerful tool for handling large datasets and conducting complex analyses but also for automating various tasks. It's been a fulfilling journey, and I look forward to sharing more of my experiences here.</p>
+    </section>
 
-<div class="jumbotron">
-    <p>
-        <b>肖航课题组</b>开发了首个<b>基于字符串的可逆晶体表示法: SLICES</b>,实现了生成式AI驱动的<b>Text2Crystal</b>。SLICES有望成为AI驱动的晶体材料逆向设计的标准工具,即<b>晶体材料的"SMILES"</b>。 
-    </p>
-    <p>
-    The <b>XIAO Research Group</b> developed the first <b>string-based invertible, invariant crystallographic representation: SLICES</b>, achieving <b>Text2Crystal</b> powered by generative AI. SLICES has the potential to become a standard tool for <i> in-silico </i> materials discovery, i.e. "SMILES" for crystal structures.
-    </p>
-</div>
+    <section id="research-areas">
+        <h2>Research Areas</h2>
+        <ul>
+            <li><strong>Digital Media Marketing:</strong> Investigating effective strategies to utilize social media and online platforms for brand promotion.</li>
+            <li><strong>Business Data Analysis:</strong> Employing statistical methods and machine learning algorithms to understand market trends and predict consumer behaviors.</li>
+            <li><strong>User Interaction Experience:</strong> Studying the effects of user interface designs on user experience and exploring ways to enhance user satisfaction.</li>
+        </ul>
+    </section>
 
-<script
-	type="module"
-	src="https://gradio.s3-us-west-2.amazonaws.com/4.41.0/gradio.js"
-></script>
+    <section id="recent-projects">
+        <h2>Recent Projects</h2>
+        <ul>
+            <li><strong>Social Media Influence Analysis:</strong> Developed a Python tool to analyze the impact of different factors on user influence on social media platforms.</li>
+            <li><strong>Customer Segmentation Model:</strong> Implemented machine learning techniques to identify distinct customer groups, enabling more targeted marketing strategies.</li>
+        </ul>
+    </section>
 
-<gradio-app src="https://xiaohang07-slices.hf.space" theme_mode="light"></gradio-app>
+    <section id="skills-and-tools">
+        <h2>Skills &amp; Tools</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, SQL</li>
+            <li><strong>Tools/Frameworks:</strong> Pandas, NumPy, Matplotlib, Scikit-Learn</li>
+            <li><strong>Other Skills:</strong> Data Analysis, Data Visualization, Machine Learning</li>
+        </ul>
+    </section>
 
-<gradio-app src="https://xiaohang07-mattergpt-cpu.hf.space" theme_mode="light"></gradio-app>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you are interested in my research or would like to discuss related topics, feel free to contact me!</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:3228517179@qq.com">3228517179@qq.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/liuxinyue/" target="_blank">Liu Xin Yue's LinkedIn Profile</a></li>
+            <li><strong>Personal Website:</strong> <a href="https://github.com/liuxinyye/liuxinyye.github.io" target="_blank">Liu Xin Yue's Personal Website</a></li>
+        </ul>
+    </section>
 
-
-<section>
-    <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
-            <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
-</section>
-
-
-<div id="people">
-    <h2>People</h2>
-    {% for role-table in page.role-tables %}
-        <section class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
-                </div>
-            {% endfor %}
-        </section>
-    {% endfor %}
-</div>
+    <footer>
+        <p>Note: This project is primarily for learning purposes, and all code is published within the scope of the license. Contributions are welcome via Issues and Pull Requests to help improve the project.</p>
+    </footer>
+</body>
+</html>
