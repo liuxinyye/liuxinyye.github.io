@@ -41,10 +41,6 @@ If you are interested in my research or would like to discuss related topics, fe
 - **LinkedIn**: [Liu Xin Yue's LinkedIn Profile](https://www.linkedin.com/in/liuxinyue/)
 - **Personal Website**: [Liu Xin Yue's Personal Website](https://github.com/liuxinyye/liuxinyye.github.io)
 
----
-
-
----
 
 ### Notes
 
