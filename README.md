@@ -37,15 +37,12 @@ I started learning Python while building this website, aiming to enhance my prog
 
 If you are interested in my research or would like to discuss related topics, feel free to contact me!
 
-- **Email**: liuxinyue@example.com
+- **Email**: 3228517179@qq.com
 - **LinkedIn**: [Liu Xin Yue's LinkedIn Profile](https://www.linkedin.com/in/liuxinyue/)
-- **Personal Website**: [Liu Xin Yue's Personal Website](https://liuxinyue.github.io/)
+- **Personal Website**: [Liu Xin Yue's Personal Website](https://github.com/liuxinyye/liuxinyye.github.io)
 
 ---
 
-### LICENSE
-
-[If applicable, choose an open-source license such as the MIT License.]
 
 ---
 
