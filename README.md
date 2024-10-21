@@ -1,58 +1,55 @@
+# Liu Xin Yue's Personal Website
 
+👋 Hi, I'm Liu Xin Yue, a researcher specializing in Digital Media and Business Management. On this website, I will share my research findings, learning experiences, and how I use Python to enhance my research work.
 
-# 刘昕玥的个人网站
+## About Me
 
-👋 Hi，我是刘昕玥，一名专注于数字媒体与商业管理的研究者。在这个网站上，我将分享我的研究成果、学习心得以及使用Python辅助我的研究工作的经验。
+🎓 Currently, my research focuses on utilizing digital media tools and technologies to optimize business management strategies. I believe in the power of technology and strive to explore its applications in practical business contexts.
 
-## 关于我
+🚀 In my free time, I enjoy reading and traveling, which helps broaden my perspectives and inspire me.
 
-🎓 正在探索数字媒体与商业管理领域，特别是对如何利用数字媒体工具和技术来优化商业管理策略很感兴趣。我相信技术的力量，并努力探索如何将其应用于商业实践中以创造更大的价值。
+🌱 I am continuously learning new technologies and tools. Currently, I am delving deeper into Python to improve my data analysis skills.
 
-🚀 在我的闲暇时间里，我喜欢阅读与旅行，这些经历让我能够开阔视野，获得灵感。
+📫 If you're interested in discussing or collaborating, feel free to reach out!
 
-🌱 不断学习新技术和工具，目前正在深入研究Python，以提升我的数据分析能力。
+## Learning Python Journey
 
-📫 如有兴趣交流或合作，请随时联系我！
+I started learning Python while building this website, aiming to enhance my programming skills through practice. Python is a powerful tool that helps me process large amounts of data, perform data analysis, and automate routine tasks.
 
-## 学习Python之旅
+## Research Areas
 
-我在搭建这个网站的过程中开始学习Python，希望通过实践来提升我的编程技能。Python是一个强大的工具，可以帮助我处理大量数据，进行数据分析，并自动化一些日常任务。
+- **Digital Media Marketing**: Exploring effective ways to leverage social media and other online platforms for brand promotion.
+- **Business Data Analysis**: Using statistical methods and machine learning to analyze market trends and predict consumer behavior.
+- **User Interaction Experience**: Studying the impact of user interface design on user experience and finding ways to increase user satisfaction.
 
-## 研究领域
+## Recent Projects
 
-- **数字媒体营销**：探索如何有效地使用社交媒体和其他在线平台来进行品牌推广。
-- **商业数据分析**：运用统计学和机器学习方法来分析市场趋势，预测消费者行为。
-- **用户交互体验**：研究用户界面设计对用户体验的影响，并寻找提高用户满意度的方法。
+- **Social Media Influence Analysis**: A Python-based tool to analyze the impact of different factors on user influence on social media platforms.
+- **Customer Segmentation Model**: Using machine learning techniques to identify different customer segments to develop more targeted marketing strategies.
 
-## 最近的项目
+## Skills & Tools
 
-- **社交媒体影响分析**：一个用Python编写的工具，用于分析社交媒体平台上不同因素对用户影响力的影响。
-- **客户细分模型**：使用机器学习技术来识别不同类型的客户群体，以便制定更有针对性的营销策略。
+- **Programming Languages**: Python, SQL
+- **Tools/Frameworks**: Pandas, NumPy, Matplotlib, Scikit-Learn
+- **Other Skills**: Data Analysis, Data Visualization, Machine Learning
 
-## 技能与工具
+## Contact
 
-- **编程语言**：Python, SQL
-- **工具/框架**：Pandas, NumPy, Matplotlib, Scikit-Learn
-- **其他技能**：数据分析, 数据可视化
+If you are interested in my research or would like to discuss related topics, feel free to contact me!
 
-## 联系方式
-
-如果你对我的研究感兴趣，或者想就相关话题进行讨论，欢迎随时联系我！
-
-- **邮箱**：3228517179@qq.com
-- **个人网站**：[刘昕玥的个人网站链接](https://liuxinyye.github.io/)
+- **Email**: liuxinyue@example.com
+- **LinkedIn**: [Liu Xin Yue's LinkedIn Profile](https://www.linkedin.com/in/liuxinyue/)
+- **Personal Website**: [Liu Xin Yue's Personal Website](https://liuxinyue.github.io/)
 
 ---
 
 ### LICENSE
 
-
-
----
-
-### 注意事项
-
-- 本项目主要用于学习目的，所有代码均在许可范围内公开。
-- 欢迎提出Issues和Pull Requests以帮助改进项目。
+[If applicable, choose an open-source license such as the MIT License.]
 
 ---
+
+### Notes
+
+- This project is primarily for learning purposes, and all code is published within the scope of the license.
+- Contributions are welcome via Issues and Pull Requests to help improve the project.
